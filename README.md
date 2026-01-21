@@ -1,5 +1,6 @@
 # mezn-cbz
 
+```
 Mezn CBZ Reader
 ├── 核心阅读
 │   ├── CBZ 流式解压
@@ -15,6 +16,7 @@ Mezn CBZ Reader
 └── 检测目录
      ├── 自动检测下一卷
      └── 章节目录弹窗
+```
 
 ##  info.json
 
