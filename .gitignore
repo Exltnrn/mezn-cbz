@@ -1,0 +1,41 @@
+# Logs (日志文件)
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies (依赖包 - 绝对不要上传)
+node_modules
+.pnpm-store
+
+# Build Output (构建产物)
+dist
+dist-ssr
+coverage
+
+# Local Env Files (本地环境变量 - 安全起见不要上传)
+*.local
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Cloudflare Pages / Wrangler (关键配置)
+.wrangler/
+.dev.vars
+
+# Editor directories and files (编辑器缓存)
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

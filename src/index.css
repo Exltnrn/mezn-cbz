@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-viewer: #1a1a1a;
+}
+
+body {
+  background-color: #000;
+  overflow: hidden; 
+  margin: 0;
+}
